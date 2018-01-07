@@ -1,7 +1,7 @@
   {
     "algo": "cryptonight",
     "av": 0,
-    "background": false,
+    "background": true,
     "colors": true,
     "cpu-affinity": null,
     "cpu-priority": 0,
