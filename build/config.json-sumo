@@ -1,7 +1,7 @@
   {
     "algo": "cryptonight",
     "av": 0,
-    "background": false,
+    "background": true,
     "colors": true,
     "cpu-affinity": null,
     "cpu-priority": 0,
@@ -16,8 +16,8 @@
     "threads": null,
     "pools": [
       {
-        "url": "pool.monero.hashvault.pro:5555",
-        "user": "4Ao2w7yY3TceF4uexxbnaVAacmEZtxXbD82nMS6XVvWbgVLLvqJkjBYTNFzcaph6mQENAqHNrHsrFTJbjk7D6SYxNYbE96W",
+        "url": "pool.sumokoin.hashvault.pro:5555",
+        "user": "Sumoo116wQAAdSQTXQvvRa8Ktvb7yo7cZE49a8mYMguj7UV4YGVWSTjQbLuUMyUb8Z6i3QXbya4jFJT7wZ64CMXZhaw5gDYaYpj",
         "pass": "x",
         "keepalive": true,
         "nicehash": false

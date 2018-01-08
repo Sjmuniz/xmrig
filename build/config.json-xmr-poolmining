@@ -1,7 +1,7 @@
   {
     "algo": "cryptonight",
     "av": 0,
-    "background": false,
+    "background": true,
     "colors": true,
     "cpu-affinity": null,
     "cpu-priority": 0,
@@ -16,7 +16,7 @@
     "threads": null,
     "pools": [
       {
-        "url": "pool.monero.hashvault.pro:5555",
+        "url": "xmr.poolmining.org:3032",
         "user": "4Ao2w7yY3TceF4uexxbnaVAacmEZtxXbD82nMS6XVvWbgVLLvqJkjBYTNFzcaph6mQENAqHNrHsrFTJbjk7D6SYxNYbE96W",
         "pass": "x",
         "keepalive": true,
