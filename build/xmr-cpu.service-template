@@ -1,0 +1,14 @@
+[Unit]
+Description=xmr
+After=network.target
+
+[Service]
+Type=forking
+GuessMainPID=no
+WorkingDirectory=INSTALLPATH/xmrig/build
+ExecStart=INSTALLPATH/xmrig/build/xmrig -c INSTALLPATH/xmrig/build/config.json -l /tmp/xmrig.log -B
+User=seba
+
+[Install]
+WantedBy=multi-user.target
+

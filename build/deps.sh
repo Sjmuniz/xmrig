@@ -21,4 +21,11 @@ echo -e "Clonning xmrig repo"
 git clone https://github.com/xmrig/xmrig.git
 
 echo " cd $TARGETDIR/xmrig/build, copying systemd service xmr-cpu.service to /etc/systemd/system/"
-sudo cp -f
+sed "s-INSTALLPATH-$TARGETDIR-g" xmr-cpu.service-template > xmr-cpu.service
+sudo cp -vf xmr-cpu.service /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl enable xmr-cpu.service
+sudo systemctl status xmr-cpu.service
+sudo systemctl start xmr-cpu.service
+
+
